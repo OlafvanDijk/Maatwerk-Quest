@@ -1,0 +1,52 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "e06ee7ab-5196-48b2-b21e-6517d46053ee",
+            "actions": [
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "18a353cb-8047-450f-9dab-3ebd23488807",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Esc",
+                    "type": "Button",
+                    "id": "dce7d0fd-da12-4ea3-a29d-a8b6271c83f5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "630bc143-03ad-4282-bc68-c47e54d43372",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc14ef44-08ef-4c29-bbb4-9665d6ac54ac",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Esc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
