@@ -121,7 +121,7 @@ public class OptionSelector : MonoBehaviour
                 unusedSet = string.Empty;
             }
 
-            Debug.Log(index + " " + unusedSet);
+            //Debug.Log(index + " " + unusedSet);
             return index;
         }
         return string.Empty;

@@ -49,6 +49,17 @@ public class @Controls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""e6638cc3-16bc-495e-9237-5a2746efdcd5"",
+                    ""path"": ""<Keyboard>/numpadEnter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Submit"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""dc14ef44-08ef-4c29-bbb4-9665d6ac54ac"",
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",

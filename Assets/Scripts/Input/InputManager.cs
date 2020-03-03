@@ -29,7 +29,6 @@ public class InputManager : MonoBehaviour
         if (CheckPerformed(context))
         {
             SubmitEvent.Invoke();
-            Debug.Log("Submit");
         }
         SetFocusOnInputField();
     }
