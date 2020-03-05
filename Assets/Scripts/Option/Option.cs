@@ -8,9 +8,9 @@ using UnityEngine.UI;
 public class Option : MonoBehaviour
 {
     public string optionCharacter;
+    public string optionText;
 
     [SerializeField] private bool letterOrNumber;
-    [SerializeField] private string optionText;
 
     public UnityEvent ChooseOptionEvent;
 
@@ -40,16 +40,16 @@ public class Option : MonoBehaviour
     {
         text = GetComponent<Text>();
         this.optionText = optionText;
-        SetOptionCharacter(letterOrNumber);
-        text.text = this.ToString();
+        StartCoroutine(SetOptionCharacter(letterOrNumber));
     }
 
     /// <summary>
     /// Receives optionCharacter from the OptionSelector based on the letterOrNumber bool.
     /// </summary>
     /// <param name="letterOrNumber">true for letter, false for number</param>
-    private void SetOptionCharacter(bool letterOrNumber)
+    private IEnumerator SetOptionCharacter(bool letterOrNumber)
     {
+        yield return new WaitUntil(() => OptionSelector.Instance != null);
         if (letterOrNumber)
         {
             optionCharacter = OptionSelector.Instance.GiveOptionALetter(this);
@@ -58,6 +58,7 @@ public class Option : MonoBehaviour
         {
             optionCharacter = OptionSelector.Instance.GiveOptionANumber(this);
         }
+        text.text = this.ToString();
     }
 
     /// <summary>

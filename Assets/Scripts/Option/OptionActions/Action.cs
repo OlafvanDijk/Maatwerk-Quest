@@ -5,8 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Option))]
 public class Action : MonoBehaviour
 {
-    [HideInInspector]
-    public Option option;
+    [HideInInspector] public Option option;
+    [HideInInspector] public PanelSwitcher panelSwitcher;
 
     void Awake()
     {
@@ -14,9 +14,15 @@ public class Action : MonoBehaviour
         option.ChooseOptionEvent.AddListener(OnAction);
     }
 
+    private void Start()
+    {
+        panelSwitcher = PanelSwitcher.Instance;
+    }
+
     public virtual void OnAction()
     {
-        Debug.Log("Debug Action.");
+        Debug.Log("Switch to main");
+        panelSwitcher.SwitchPanel(Panels.Main);
     }
 
     private void OnDestroy()

@@ -13,6 +13,14 @@ public class OptionCreator : MonoBehaviour
         CreateOptionsFromOptionList();
     }
 
+    private void OnDisable()
+    {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+
     /// <summary>
     /// Create and display a new option with an action.
     /// </summary>

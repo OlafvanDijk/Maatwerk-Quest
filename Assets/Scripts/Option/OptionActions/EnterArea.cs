@@ -6,7 +6,9 @@ public class EnterArea : Action
 {
     public override void OnAction()
     {
-        string areaNumber = option.optionCharacter;
-        Debug.Log("Enter Area " + areaNumber);
+        string area = option.optionText;
+        PlayerPrefs.SetString("Area", area);
+        panelSwitcher.SwitchPanel(Panels.Area);
+        Debug.Log("Enter Area " + area);
     }
 }

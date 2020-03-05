@@ -1,20 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7102797054355876424
+--- !u!114 &1486540015691130591
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6466793360606298933}
+  m_GameObject: {fileID: 6747199920554972246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df5b52b80564b964a887b84a03218bf2, type: 3}
+  m_Script: {fileID: 11500000, guid: 3edad86dac0af154cb387714821c2cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   option: {fileID: 0}
   panelSwitcher: {fileID: 0}
---- !u!1001 &9137050019137158528
+--- !u!1001 &8849896858510125795
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -129,15 +129,14 @@ PrefabInstance:
     - target: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
         type: 3}
       propertyPath: m_Name
-      value: Option Quit
+      value: Option Area
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: -5334279927280874610, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8, type: 3}
     - {fileID: -8226387667105870539, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8, type: 3}
---- !u!1 &6466793360606298933 stripped
+--- !u!1 &6747199920554972246 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
     type: 3}
-  m_PrefabInstance: {fileID: 9137050019137158528}
+  m_PrefabInstance: {fileID: 8849896858510125795}
   m_PrefabAsset: {fileID: 0}

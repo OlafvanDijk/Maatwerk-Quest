@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7976993212677895826}
   - component: {fileID: 4230217347282862285}
   - component: {fileID: 3636545422443266225}
-  - component: {fileID: -5334279927280874610}
+  - component: {fileID: -8226387667105870539}
   m_Layer: 5
   m_Name: Option
   m_TagString: Untagged
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: a) this is an option
+  m_Text: 
 --- !u!114 &4230217347282862285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,12 +108,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionCharacter: 
+  optionText: 
   letterOrNumber: 0
-  optionText: First Option
   ChooseOptionEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &-5334279927280874610
+--- !u!114 &-8226387667105870539
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +122,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2842889403031781045}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3edad86dac0af154cb387714821c2cf5, type: 3}
+  m_Script: {fileID: 11500000, guid: e27efdade67a4154c9a87b6c11fb4427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   option: {fileID: 0}
+  panelSwitcher: {fileID: 0}

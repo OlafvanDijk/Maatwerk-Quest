@@ -44,6 +44,7 @@ public class InputManager : MonoBehaviour
         {
             EscapeEvent.Invoke();
             Debug.Log("Escape");
+            Application.Quit();
         }
     }
 
