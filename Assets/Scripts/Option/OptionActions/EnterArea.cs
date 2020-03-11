@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class EnterArea : Action
 {
+    /// <summary>
+    /// Set Area in PlayerPrefs
+    /// Switch Panel to Area
+    /// </summary>
     public override void OnAction()
     {
         string area = option.optionText;

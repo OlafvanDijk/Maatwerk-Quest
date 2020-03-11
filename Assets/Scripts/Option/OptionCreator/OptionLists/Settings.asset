@@ -13,13 +13,18 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   options:
+  - optionText: Quests
+    letterOrNumber: 1
+    optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
+      type: 3}
+    visible: 1
   - optionText: Settings
-    letterOrNumber: 0
+    letterOrNumber: 1
     optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
       type: 3}
     visible: 1
   - optionText: Quit Game
-    letterOrNumber: 0
+    letterOrNumber: 1
     optionPrefab: {fileID: 6466793360606298933, guid: 499319a1757e84f478f194f07bff99c1,
       type: 3}
     visible: 1

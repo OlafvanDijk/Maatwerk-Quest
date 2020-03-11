@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class InputManager : MonoBehaviour
 {
-    [SerializeField] FocusInputField inputField;
+    [SerializeField] private FocusInputField inputField;
 
     public UnityEvent SubmitEvent;
     public UnityEvent EscapeEvent;

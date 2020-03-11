@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   options:
   - optionText: Home
-    letterOrNumber: 1
+    letterOrNumber: 0
+    optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
+      type: 3}
+    visible: 1
+  - optionText: Way to School
+    letterOrNumber: 0
     optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
       type: 3}
     visible: 1
   - optionText: School
-    letterOrNumber: 1
+    letterOrNumber: 0
     optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
       type: 3}
     visible: 1
-  - optionText: Teachers' table
-    letterOrNumber: 1
+  - optionText: Teachers' Table
+    letterOrNumber: 0
     optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
       type: 3}
     visible: 1
-  - optionText: Supermarket
-    letterOrNumber: 1
-    optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
-      type: 3}
-    visible: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd70d720fdf0ae94ea0cc1e56c0c005a, type: 3}
+  m_Name: 1_Home
+  m_EditorClassIdentifier: 
+  areaName: Home
+  minLevelEnemy: 1
+  maxLevelEnemy: 5
+  killAmount: 10
+  enemies:
+  - {fileID: 5861507151842751823, guid: 5ebbee3d9f802ad409bf5a1b173d819d, type: 3}
+  - {fileID: 990395456829827811, guid: 527a1793e4e173f40aad681638d76954, type: 3}

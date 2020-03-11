@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd70d720fdf0ae94ea0cc1e56c0c005a, type: 3}
+  m_Name: 3_School
+  m_EditorClassIdentifier: 
+  areaName: School
+  minLevelEnemy: 11
+  maxLevelEnemy: 15
+  killAmount: 10
+  enemies:
+  - {fileID: 6119001976462620432, guid: b1b6a9f93d1c81540a4e746d9f40071b, type: 3}
+  - {fileID: 8601649653601332979, guid: 934dcbbb8e8d1174a954002ccee27af4, type: 3}
+  - {fileID: 8045691128581670648, guid: e80d5733e6862904ca312462c9d1f3d3, type: 3}

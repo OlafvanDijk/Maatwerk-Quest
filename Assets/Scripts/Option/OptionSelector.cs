@@ -5,7 +5,7 @@ using System;
 
 public class OptionSelector : MonoBehaviour
 {
-    [SerializeField] FocusInputField inputField;
+    [SerializeField] private FocusInputField inputField;
 
     public static OptionSelector Instance;
 

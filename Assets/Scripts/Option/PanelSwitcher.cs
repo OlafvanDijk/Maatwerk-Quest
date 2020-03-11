@@ -41,7 +41,7 @@ public class PanelSwitcher : MonoBehaviour
             bool panelState = false;
             if (item.type.Equals(type))
             {
-                if (!item.panels[0].activeSelf)
+                if (item.panels.Count > 0 && !item.panels[0].activeSelf)
                 {
                     optionSelector.ResetLettersAndNumbers();
                 }
