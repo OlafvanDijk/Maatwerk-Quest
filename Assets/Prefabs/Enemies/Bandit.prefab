@@ -26,7 +26,7 @@ PrefabInstance:
     - target: {fileID: 990395456829827811, guid: 527a1793e4e173f40aad681638d76954,
         type: 3}
       propertyPath: m_Name
-      value: NormalSprite
+      value: Bandit
       objectReference: {fileID: 0}
     - target: {fileID: 990395456829827811, guid: 527a1793e4e173f40aad681638d76954,
         type: 3}
@@ -88,5 +88,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2229085766999327219, guid: 527a1793e4e173f40aad681638d76954,
+        type: 3}
+      propertyPath: baseStats
+      value: 
+      objectReference: {fileID: 11400000, guid: b6924456cf79c294f80f8c2026a0e19c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 527a1793e4e173f40aad681638d76954, type: 3}

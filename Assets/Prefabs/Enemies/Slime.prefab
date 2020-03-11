@@ -7,10 +7,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5168677971718364160, guid: b1b6a9f93d1c81540a4e746d9f40071b,
+        type: 3}
+      propertyPath: baseStats
+      value: 
+      objectReference: {fileID: 11400000, guid: da2a9045729b97e4e8e13fc678910531,
+        type: 2}
     - target: {fileID: 6119001976462620432, guid: b1b6a9f93d1c81540a4e746d9f40071b,
         type: 3}
       propertyPath: m_Name
-      value: NormalSprite
+      value: Slime
       objectReference: {fileID: 0}
     - target: {fileID: 6119001976462620433, guid: b1b6a9f93d1c81540a4e746d9f40071b,
         type: 3}

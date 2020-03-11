@@ -7,6 +7,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7209955222189999587, guid: 934dcbbb8e8d1174a954002ccee27af4,
+        type: 3}
+      propertyPath: baseStats
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d43a04f7886bbd48b355289ceb8551e,
+        type: 2}
     - target: {fileID: 8601649653601332978, guid: 934dcbbb8e8d1174a954002ccee27af4,
         type: 3}
       propertyPath: m_Sprite
@@ -26,7 +32,7 @@ PrefabInstance:
     - target: {fileID: 8601649653601332979, guid: 934dcbbb8e8d1174a954002ccee27af4,
         type: 3}
       propertyPath: m_Name
-      value: Orc
+      value: Crusader
       objectReference: {fileID: 0}
     - target: {fileID: 8601649653601332989, guid: 934dcbbb8e8d1174a954002ccee27af4,
         type: 3}

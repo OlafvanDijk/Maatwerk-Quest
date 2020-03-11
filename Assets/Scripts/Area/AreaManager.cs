@@ -19,6 +19,8 @@ public class AreaManager : MonoBehaviour
                 System.Random random = new System.Random();
                 GameObject enemy = area.enemies[random.Next(area.enemies.Count)];
                 currentEnemy = Instantiate(enemy);
+                EnemyStats enemyStats = currentEnemy.GetComponent<EnemyStats>();
+                enemyStats.SetLevel(random.Next(area.minLevelEnemy, area.maxLevelEnemy + 1));
             }
         }
     }
@@ -28,17 +30,5 @@ public class AreaManager : MonoBehaviour
         Destroy(currentEnemy);
         currentEnemy = null;
         PlayerPrefs.SetString("Area", string.Empty);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
