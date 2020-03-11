@@ -27,6 +27,7 @@ public class AreaManager : MonoBehaviour
     {
         Destroy(currentEnemy);
         currentEnemy = null;
+        PlayerPrefs.SetString("Area", string.Empty);
     }
 
     // Start is called before the first frame update
