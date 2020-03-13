@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 523a0dcdf26d3384cab1e8402fdc25fa, type: 3}
-  m_Name: Areas
+  m_Name: Combat
   m_EditorClassIdentifier: 
   options:
-  - optionText: Home
-    letterOrNumber: 1
+  - optionText: Chop
+    letterOrNumber: 0
     optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
       type: 3}
     visible: 1
-  - optionText: School
-    letterOrNumber: 1
+  - optionText: Thrust
+    letterOrNumber: 0
     optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
       type: 3}
     visible: 1
-  - optionText: Teachers' table
-    letterOrNumber: 1
+  - optionText: Slash
+    letterOrNumber: 0
     optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
       type: 3}
     visible: 1
-  - optionText: Supermarket
-    letterOrNumber: 1
+  - optionText: Parry
+    letterOrNumber: 0
     optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
       type: 3}
-    visible: 0
+    visible: 1

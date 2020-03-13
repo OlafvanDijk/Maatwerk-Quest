@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523a0dcdf26d3384cab1e8402fdc25fa, type: 3}
+  m_Name: Areas
+  m_EditorClassIdentifier: 
+  options:
+  - optionText: Home
+    letterOrNumber: 0
+    optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
+      type: 3}
+    visible: 1
+  - optionText: Way to School
+    letterOrNumber: 0
+    optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
+      type: 3}
+    visible: 1
+  - optionText: School
+    letterOrNumber: 0
+    optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
+      type: 3}
+    visible: 1
+  - optionText: Teachers' Table
+    letterOrNumber: 0
+    optionPrefab: {fileID: 6747199920554972246, guid: 33a6472f47c34954d82f3ebfd149199b,
+      type: 3}
+    visible: 1

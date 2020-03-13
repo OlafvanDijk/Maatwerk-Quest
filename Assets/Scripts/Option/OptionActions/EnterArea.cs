@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class EnterArea : Action
 {
+    /// <summary>
+    /// Set Area in PlayerPrefs
+    /// Switch Panel to Area
+    /// </summary>
     public override void OnAction()
     {
-        string areaNumber = option.optionCharacter;
-        Debug.Log("Enter Area " + areaNumber);
+        string area = option.optionText;
+        PlayerPrefs.SetString("Area", area);
+        panelSwitcher.SwitchPanel(Panels.Area);
+        Debug.Log("Enter Area " + area);
     }
 }

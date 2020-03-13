@@ -5,7 +5,7 @@ using System;
 
 public class OptionSelector : MonoBehaviour
 {
-    [SerializeField] FocusInputField inputField;
+    [SerializeField] private FocusInputField inputField;
 
     public static OptionSelector Instance;
 
@@ -127,6 +127,12 @@ public class OptionSelector : MonoBehaviour
         return string.Empty;
     }
 
+    public void ResetLettersAndNumbers()
+    {
+        ResetLetters();
+        ResetNumbers();
+    }
+
     /// <summary>
     /// Method to clear all the Letter options and reset the string
     /// </summary>
@@ -148,7 +154,7 @@ public class OptionSelector : MonoBehaviour
     /// </summary>
     /// <param name="unusedSet">unused character set</param>
     /// <param name="completeSet">compelte character set</param>
-    public void ResetStringAndOptions(ref string unusedSet, ref string completeSet)
+    private void ResetStringAndOptions(ref string unusedSet, ref string completeSet)
     {
         string used = completeSet.Substring(0, completeSet.IndexOf(unusedSet));
         for (int i = 0; i < used.Length; i++)

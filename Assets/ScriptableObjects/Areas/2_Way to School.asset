@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd70d720fdf0ae94ea0cc1e56c0c005a, type: 3}
+  m_Name: 2_Way to School
+  m_EditorClassIdentifier: 
+  areaName: Way to School
+  minLevelEnemy: 6
+  maxLevelEnemy: 10
+  killAmount: 10
+  enemies:
+  - {fileID: 7966006850611213317, guid: 36181e0da31291c458523e4a8237c249, type: 3}
+  - {fileID: 8045691128581670648, guid: e80d5733e6862904ca312462c9d1f3d3, type: 3}
+  - {fileID: 990395456829827811, guid: 527a1793e4e173f40aad681638d76954, type: 3}

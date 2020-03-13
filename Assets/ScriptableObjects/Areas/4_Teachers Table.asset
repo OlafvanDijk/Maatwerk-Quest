@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd70d720fdf0ae94ea0cc1e56c0c005a, type: 3}
+  m_Name: 4_Teachers Table
+  m_EditorClassIdentifier: 
+  areaName: Teachers' Table
+  minLevelEnemy: 16
+  maxLevelEnemy: 20
+  killAmount: 10
+  enemies:
+  - {fileID: 7831839296241544455, guid: b99ac313bdb566548a913031bd57c553, type: 3}
+  - {fileID: 1464963345346662770, guid: eb5a266d31a25a943a92f66a24194c54, type: 3}
