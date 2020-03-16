@@ -104,33 +104,3 @@ public class EnemyStats : MonoBehaviour
         return percentages.Find(m => m.name == statName).percentage;
     }
 }
-
-/// <summary>
-/// Class to sort by percentage and still know what stat it blongs to
-/// </summary>
-public class StatSort : IComparable
-{
-    public string name;
-    public float percentage;
-
-    public StatSort(string name, float percentage)
-    {
-        this.name = name;
-        this.percentage = percentage;
-    }
-
-    public int CompareTo(object obj)
-    {
-        if (obj == null) return 1;
-
-        StatSort otherStat = obj as StatSort;
-        if (otherStat != null)
-        {
-            return percentage.CompareTo(otherStat.percentage);
-        }
-        else
-        {
-            throw new Exception("Not the right type.");
-        }
-    }
-}
