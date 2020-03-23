@@ -8,7 +8,7 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] private StatsObject baseStats;
     [Space]
     [SerializeField] private float level;
-    [SerializeField] private Stats actualStats;
+    public Stats actualStats;
 
     /// <summary>
     /// Set the stats based on level

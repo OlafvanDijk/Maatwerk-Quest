@@ -11,23 +11,69 @@ public class StatsObject : ScriptableObject
 
 [Serializable]
 public class Stats {
+    [Header("General Stats")]
     public int Vit;
     public int Wis;
     public int Str;
     public int Dex;
     public int Int;
 
+    [Header("Combat Stats")]
+    public float health;
+    public int mana;
+    public float defense;
+    public float bonusDamageStr;
+    public float bonusDamageInt;
+
     public Stats(int Vit, int Str, int Dex)
     {
         this.Vit = Vit;
         this.Str = Str;
         this.Dex = Dex;
+        CalculateHealth();
+        CalculateDamage();
     }
 
     public Stats(int Vit, int Wis, int Str, int Dex, int Int) : this(Vit, Str, Dex)
     {
         this.Wis = Wis;
         this.Int = Int;
+        CalculateMana();
+        CalculateDamageMagic();
+    }
+
+    private void CalculateHealth()
+    {
+        health = (Vit * 10) + 20;
+    }
+
+    private void CalculateDamage()
+    {
+        if (Str > 0)
+        {
+            bonusDamageStr = 1 + ((float)Str / 10);
+        }
+        else
+        {
+            bonusDamageStr = 1;
+        }
+    }
+
+    private void CalculateMana()
+    {
+        mana = (Wis * 5) + 10;
+    }
+
+    private void CalculateDamageMagic()
+    {
+        if (Int > 0)
+        {
+            bonusDamageInt = 1 + ((float)Int / 10);
+        }
+        else
+        {
+            bonusDamageInt = 1;
+        }
     }
 
     /// <summary>
