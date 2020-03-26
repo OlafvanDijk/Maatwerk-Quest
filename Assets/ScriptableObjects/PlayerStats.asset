@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   classStats:
     characterClass: 0
-    classStats: {fileID: 11400000, guid: 70bd880ac274f964f9e402229338a9f0, type: 2}
+    classStats: {fileID: 11400000, guid: 7d562cc4299564c49b5a616642ff98c9, type: 2}
   raceStats:
     characterRace: 0
     raceStats: {fileID: 11400000, guid: ff249a80aeebdf64c8c212ca99da858b, type: 2}
   selfAppointedStats:
+    name: 
     Vit: 0
     Wis: 0
     Str: 0
     Dex: 0
     Int: 0
+    health: 0
+    mana: 0
+    defense: 0
+    bonusDamageStr: 0
+    bonusDamageInt: 0
   actualStats:
-    Vit: 4
+    name: 
+    Vit: 6
     Wis: 0
     Str: 6
-    Dex: 4
+    Dex: 2
     Int: 0
+    health: 80
+    mana: 0
+    defense: 0
+    bonusDamageStr: 1.6
+    bonusDamageInt: 1

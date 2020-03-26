@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 523a0dcdf26d3384cab1e8402fdc25fa, type: 3}
-  m_Name: Combat
+  m_Name: Combat GameDesign
   m_EditorClassIdentifier: 
   options:
-  - optionText: Chop
+  - optionText: Use var for each variable
     letterOrNumber: 0
-    optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
+    optionPrefab: {fileID: 3865755145678645055, guid: a21d60ba6e4113e43a7d67fa5abfa453,
       type: 3}
     visible: 1
-  - optionText: Thrust
+  - optionText: Instantiate a new Object
     letterOrNumber: 0
-    optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
+    optionPrefab: {fileID: 3865755145678645055, guid: a21d60ba6e4113e43a7d67fa5abfa453,
       type: 3}
     visible: 1
-  - optionText: Slash
+  - optionText: Create a Singleton
     letterOrNumber: 0
-    optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
+    optionPrefab: {fileID: 3865755145678645055, guid: a21d60ba6e4113e43a7d67fa5abfa453,
       type: 3}
     visible: 1
-  - optionText: Parry
+  - optionText: Use GameObject.Find()
     letterOrNumber: 0
-    optionPrefab: {fileID: 2842889403031781045, guid: 4e5f27b36794e9e4d816e6e9a55e3ee8,
+    optionPrefab: {fileID: 3865755145678645055, guid: a21d60ba6e4113e43a7d67fa5abfa453,
       type: 3}
     visible: 1

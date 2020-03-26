@@ -5,9 +5,9 @@ using System;
 
 public class EnemyStats : MonoBehaviour
 {
-    [SerializeField] private StatsObject baseStats;
-    [Space]
     [SerializeField] private float level;
+    [Space]
+    public StatsObject baseStats;
     public Stats actualStats;
 
     /// <summary>

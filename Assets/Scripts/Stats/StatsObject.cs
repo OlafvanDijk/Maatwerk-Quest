@@ -11,6 +11,9 @@ public class StatsObject : ScriptableObject
 
 [Serializable]
 public class Stats {
+    [Header("Name")]
+    public string name;
+
     [Header("General Stats")]
     public int Vit;
     public int Wis;
@@ -38,6 +41,14 @@ public class Stats {
     {
         this.Wis = Wis;
         this.Int = Int;
+        CalculateMana();
+        CalculateDamageMagic();
+    }
+
+    public void CalculateStats()
+    {
+        CalculateHealth();
+        CalculateDamage();
         CalculateMana();
         CalculateDamageMagic();
     }

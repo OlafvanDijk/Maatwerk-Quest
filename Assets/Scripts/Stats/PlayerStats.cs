@@ -14,6 +14,7 @@ public class PlayerStats : ScriptableObject
     public void CalculateStats()
     {
         actualStats = classStats.classStats.stats + raceStats.raceStats.stats + selfAppointedStats;
+        actualStats.CalculateStats();
     }
 }
 
