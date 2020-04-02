@@ -347,6 +347,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1757498394}
+        m_MethodName: OnSubmit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   EscapeEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1466,6 +1477,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1757498391}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1757498394 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1757498394, guid: 63a8305b8ed1d444dbd96976c33b5ff6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757498391}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757498393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9077ed65ff9a9c41b9da8ef9f2264b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1760386616
 GameObject:
   m_ObjectHideFlags: 0

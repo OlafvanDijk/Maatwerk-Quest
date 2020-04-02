@@ -21,5 +21,7 @@ public class FocusInputField : InputField
     public override void OnDeselect(BaseEventData eventData)
     {
         //Do Nothing
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(this.gameObject);
     }
 }

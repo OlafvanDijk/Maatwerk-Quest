@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class AreaManager : MonoBehaviour
@@ -21,8 +22,11 @@ public class AreaManager : MonoBehaviour
     private GameObject currentEnemy;
     private EnemyStats enemyStats;
 
+    private bool defeatedEnemy = false;
+
     private void OnEnable()
     {
+        defeatedEnemy = false;
         SetEnemy();
         SetPlayer();
     }
@@ -47,8 +51,6 @@ public class AreaManager : MonoBehaviour
                 enemyHealthBar.value = enemyStats.actualStats.health;
                 UpdateEnemyHealthBar(enemyHealthBar.maxValue);
 
-                //string enemyname = enemyStats.baseStats.name.Replace("(Clone)", "");
-                //enemyStats.actualStats.name = enemyname;
                 enemyStats.actualStats.name = enemyStats.baseStats.name;
                 battleInfo.text = "You encountered a " + enemyStats.actualStats.name + "!";
 
@@ -125,7 +127,6 @@ public class AreaManager : MonoBehaviour
         }
         return true;
     }
-
 
     private void EnemyAttack()
     {
@@ -213,6 +214,18 @@ public class AreaManager : MonoBehaviour
         enemyHealthBar.onValueChanged.RemoveListener(UpdateEnemyHealthBar);
         playerHealthBar.onValueChanged.RemoveListener(UpdatePlayerHealthBar);
         playerManaBar.onValueChanged.RemoveListener(UpdatePlayerManaBar);
+        defeatedEnemy = true;
+    }
+
+    public void OnSubmit()
+    {
+        if (defeatedEnemy)
+        {
+            defeatedEnemy = false;
+            inputField.interactable = true;
+            //EventSystem.current.SetSelectedGameObject(inputField.gameObject);
+            PanelSwitcher.Instance.SwitchPanel(Panels.Main);
+        }
     }
 
     private void OnDisable()
