@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2541fedf144a7af4ea54637b4d119454, type: 3}
-  m_Name: C_CyberSecurity
+  m_Name: Technology
   m_EditorClassIdentifier: 
   stats:
-    name: Cyber Security
-    Vit: 2
+    name: Technology
+    Vit: 4
     Wis: 0
-    Str: 2
-    Dex: 0
+    Str: 4
+    Dex: 2
     Int: 0
     health: 0
     mana: 0

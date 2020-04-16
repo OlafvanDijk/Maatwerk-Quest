@@ -68,5 +68,7 @@ public enum Panels
     Main,
     Area,
     Settings,
-    Quit
+    Quit,
+    Study,
+    Innovation
 }

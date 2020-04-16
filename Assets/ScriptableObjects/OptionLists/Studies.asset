@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523a0dcdf26d3384cab1e8402fdc25fa, type: 3}
+  m_Name: Studies
+  m_EditorClassIdentifier: 
+  options:
+  - optionText: Cyber Security
+    letterOrNumber: 1
+    optionPrefab: {fileID: 4868374330010655006, guid: 161486485d93e70438366397cf8978a1,
+      type: 3}
+    visible: 1
+  - optionText: 
+    letterOrNumber: 1
+    optionPrefab: {fileID: 4868374330010655006, guid: 161486485d93e70438366397cf8978a1,
+      type: 3}
+    visible: 1
+  - optionText: 
+    letterOrNumber: 1
+    optionPrefab: {fileID: 4868374330010655006, guid: 161486485d93e70438366397cf8978a1,
+      type: 3}
+    visible: 1

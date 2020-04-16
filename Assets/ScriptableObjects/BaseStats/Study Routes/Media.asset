@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2541fedf144a7af4ea54637b4d119454, type: 3}
-  m_Name: R_Software
+  m_Name: Media
   m_EditorClassIdentifier: 
   stats:
-    name: Software
+    name: Media
     Vit: 3
-    Wis: 4
-    Str: 0
-    Dex: 0
-    Int: 3
+    Wis: 0
+    Str: 2
+    Dex: 5
+    Int: 0
     health: 0
     mana: 0
     defense: 0
